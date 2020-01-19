@@ -1,0 +1,20 @@
+.productContainer {
+    height: $prod_widget_height;
+    width: $prod_widget_width;
+    margin: 10px;
+}
+
+.productContainer__InfoContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productContainer__InfoDiv {
+    font-size: smaller;
+    height: 15px;
+    width: 100px;
+    margin: 5px;
+    border-color: red;
+    border-width: 1px;
+    border-style: dashed;
+}
